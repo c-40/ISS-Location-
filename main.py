@@ -8,8 +8,8 @@ MY_PASSWORD="1234"//Your Password
 
 
 
-MY_LAT = 19.457160549929842# Your latitude
-MY_LONG =  72.79257768185154# Your longitude
+MY_LAT =76 # Your latitude
+MY_LONG = 12# Your longitude
 
 def isover():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
